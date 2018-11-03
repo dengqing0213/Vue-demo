@@ -1,0 +1,12 @@
+[
+  {
+    "gid" : 102187,
+    "img":[
+      "https://shop.io.mi-img.com/app/shop/img?id=shop_c03a7f512e8a9063e44079b8d3441fa5.jpeg&w=1080&h=1270&crop=a_0_95_1080_1080&t=webp",
+      "https://shop.io.mi-img.com/app/shop/img?id=shop_807cbd079d46868cde71092a76a404be.jpeg&w=1080&h=1270&crop=a_0_95_1080_1080&t=webp",
+      "https://shop.io.mi-img.com/app/shop/img?id=shop_07f7ef5b18b2826d3ef1aa8ed4133bc3.jpeg&w=1080&h=1270&crop=a_0_95_1080_1080&t=webp"
+    ],
+    "price_min" : 199900,
+    "market_price" : 199900
+  }
+]

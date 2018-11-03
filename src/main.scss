@@ -1,0 +1,46 @@
+@import './lib/reset.scss';
+html{
+  @include background-color(#fff);
+}
+.container{
+  // rect表示宽度和高度
+  @include rect(100%, 100%);
+  // 弹性盒布局
+  @include flexbox();
+  // 布局方向,默认为水平方向,垂直方向布局,添加参数column
+  @include flex-direction(column);
+  .header{
+    @include rect(100%, 0.44rem);
+    @include background-color(#fff);
+    @include text-color(#999999);
+    @include flexbox();
+    @include align-items();
+    .search{
+      @include rect(60%,60%);
+      @include background-color(#eee);
+      span{
+        line-height: 22px;
+      }
+    }
+  }
+  .content{
+    // flex:1,参数为几,那么flex的值为几,默认为1
+    @include flex();
+    @include rect(100%, auto);
+    // 默认超出部分滚动显示
+    @include overflow();
+  }
+  .footer{
+    @include rect(100%, 0.5rem);
+    @include background-color(#eee);
+  }
+  #backTop{
+    position: fixed;
+    bottom: 0.65rem;
+    right: 0.2rem;
+    display: none;
+    // background: #ffffff;
+    color: #666666;
+    opacity:0.5;
+  }
+}
