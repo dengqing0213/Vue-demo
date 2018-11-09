@@ -15,15 +15,6 @@ const Search = () => import('@/components/Search')
 const Order = () => import('@/components/Order')
 const Address = () => import('@/components/Address')
 const PayOrder = () => import('@/components/PayOrder')
-/* import Home from '@/components/Home'
-import Kind from '@/components/Kind'
-import Cart from '@/components/Cart'
-import User from '@/components/User'
-import Header from '@/components/Header'
-import MainFooter from '@/components/MainFooter'
-import Detail from '@/components/Detail'
-import Login from '@/components/Login'
-import Register from '@/components/Register' */
 
 Vue.use(Router)
 
