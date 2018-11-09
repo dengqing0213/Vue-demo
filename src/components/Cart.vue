@@ -26,31 +26,6 @@
         </div>
         <div class="proListDetail">
           <ul>
-            <!--<li>
-              <mt-cell-swipe :right="rightButtons">
-               <div class="checkImg">
-                 <img src="https://static.home.mi.com/youpin/static/m/res/images/std_icon_checkbox_check.png" />
-                 <img src="https://static.home.mi.com/youpin/static/m/res/images/std_icon_checkbox_uncheck.png" style="display: none"/>
-               </div>
-                <div class="proList_content">
-                  <div class="content_img">
-                    <img v-lazy.shopLsit="item.pic" />
-                  </div>
-                  <div class="content_title">
-                    <p>{{item.name}}</p>
-                    <span>￥<i>{{item.price}}</i></span>
-                  </div>
-                </div>
-                <div class="num_count">
-                  &lt;!&ndash; <div class="delBtn"><span class="iconfont icon-shanchu"></span></div>&ndash;&gt;
-                  <div class="numCount">
-                    <div class="productNumber reduceBtn" @click="reduceNum(item)">-</div>
-                    <div class="productNumber">{{item.num}}</div>
-                    <div class="productNumber addBtn" @click="addNum(item)">+</div>
-                  </div>
-                </div>
-              </mt-cell-swipe>
-            </li>-->
             <li v-for="(item, index) in shopList" :key="item.gid">
               <div class="checkImg">
                 <img src="https://static.home.mi.com/youpin/static/m/res/images/std_icon_checkbox_check.png" v-if="item.selected" @click="checkedOne(item.gid)"/>
